@@ -45,16 +45,3 @@ Windows 10 workstation
 - Simulate the onboarding process for a new employee
 
 ---
-
-## Current Status
-
-Stage 1 — Environment Setup
-
-Completed
-
-- VMware Workstation installed
-- Windows Server 2019 ISO downloaded
-
-Next Step
-
-- Create the `LAB-DC01` virtual machine
