@@ -21,18 +21,14 @@ The environment is built using virtual machines running on VMware Workstation.
 ---
 
 ## Lab Architecture
-
-Host Machine (VMware Workstation)
-
-LAB-DC01  
-Windows Server 2019  
-Domain Controller (Active Directory, DNS)
-
-LAB-WIN10-01  
-Windows 10 workstation
-
-LAB-WIN10-02  
-Windows 10 workstation
+VMware Host
+│
+├── LAB-DC01 (Windows Server 2019)
+│     └── Active Directory + DNS
+│
+├── LAB-WIN10-01 (Windows 10)
+│
+└── LAB-WIN10-02 (Windows 10)
 
 ---
 
@@ -43,5 +39,3 @@ Windows 10 workstation
 - Provision new user accounts
 - Join workstations to the domain
 - Simulate the onboarding process for a new employee
-
----
