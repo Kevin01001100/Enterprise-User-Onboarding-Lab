@@ -1,5 +1,5 @@
 # Enterprise-User-Onboarding-Lab
-1. Overview
+## 1. Overview
 
 This lab simulates a real-world Level 1 Service Desk onboarding workflow in a Windows domain environment.
 
