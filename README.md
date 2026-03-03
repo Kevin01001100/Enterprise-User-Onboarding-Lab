@@ -4,9 +4,9 @@
 
 This project simulates the enterprise IT process of onboarding a new employee into a corporate Active Directory environment.
 
-The lab is designed to demonstrate hands-on experience with common enterprise IT tasks, including user provisioning, workstation domain joining, and access management.
+The goal of the lab is to demonstrate hands-on experience with common enterprise IT operations such as user provisioning, workstation domain joining, and access management.
 
-The environment will be built using virtual machines hosted on VMware Workstation.
+The environment is built using virtual machines running on VMware Workstation.
 
 ---
 
@@ -19,3 +19,42 @@ The environment will be built using virtual machines hosted on VMware Workstatio
 - Group Policy
 
 ---
+
+## Lab Architecture
+
+Host Machine (VMware Workstation)
+
+LAB-DC01  
+Windows Server 2019  
+Domain Controller (Active Directory, DNS)
+
+LAB-WIN10-01  
+Windows 10 workstation
+
+LAB-WIN10-02  
+Windows 10 workstation
+
+---
+
+## Lab Objectives
+
+- Deploy an Active Directory domain controller
+- Create an enterprise-style organizational unit (OU) structure
+- Provision new user accounts
+- Join workstations to the domain
+- Simulate the onboarding process for a new employee
+
+---
+
+## Current Status
+
+Stage 1 — Environment Setup
+
+Completed
+
+- VMware Workstation installed
+- Windows Server 2019 ISO downloaded
+
+Next Step
+
+- Create the `LAB-DC01` virtual machine
