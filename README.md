@@ -21,16 +21,19 @@ The environment is built using virtual machines running on VMware Workstation.
 ---
 
 ## Lab Architecture
+
+```
 VMware Host
 │
 ├── LAB-DC01 (Windows Server 2019)
-│     └── Active Directory + DNS
+│   └── Roles: Active Directory Domain Services, DNS
 │
 ├── LAB-WIN10-01 (Windows 10)
+│   └── Role: Employee Workstation
 │
 └── LAB-WIN10-02 (Windows 10)
-
----
+    └── Role: Employee Workstation
+```
 
 ## Lab Objectives
 
