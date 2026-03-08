@@ -78,6 +78,6 @@ Once installation completes, a notification will appear in **Server Manager** in
 
 This confirms that **Active Directory Domain Services has been successfully installed**.
 
-![AD DS role installation completed](images/ad_ds_installed.png)
+<img width="345" height="330" alt="image" src="https://github.com/user-attachments/assets/56f28c2c-9baf-453c-a637-8e0bbbb42c7b" />
 
 The server is now ready to be **promoted to a Domain Controller**.
