@@ -1,12 +1,12 @@
-# Enterprise-User-Onboarding-Lab
+# Enterprise User Onboarding Lab
 
 ## Overview
 
-This project simulates the enterprise IT process of onboarding a new employee into a corporate Active Directory environment.
+This project simulates the enterprise IT process of onboarding a new employee into a corporate **Active Directory environment**.
 
-The goal of the lab is to demonstrate hands-on experience with common enterprise IT operations such as user provisioning, workstation domain joining, and access management.
+The lab demonstrates common enterprise IT administration tasks including **domain controller deployment, user provisioning, and domain authentication**.
 
-The environment is built using virtual machines running on VMware Workstation.
+The environment is built using **virtual machines running on VMware Workstation**.
 
 ---
 
@@ -16,6 +16,7 @@ The environment is built using virtual machines running on VMware Workstation.
 - Windows Server 2019
 - Windows 10
 - Active Directory Domain Services (AD DS)
+- DNS
 - Group Policy
 
 ---
@@ -29,16 +30,29 @@ VMware Host
 │   └── Roles: Active Directory Domain Services, DNS
 │
 ├── LAB-WIN10-01 (Windows 10)
-│   └── Role: Employee Workstation
+│   └── Role: Domain Workstation
 │
 └── LAB-WIN10-02 (Windows 10)
-    └── Role: Employee Workstation
+    └── Role: Domain Workstation
 ```
+
+---
 
 ## Lab Objectives
 
-- Deploy an Active Directory domain controller
-- Create an enterprise-style organizational unit (OU) structure
-- Provision new user accounts
-- Join workstations to the domain
-- Simulate the onboarding process for a new employee
+- Deploy a **Windows Server domain controller**
+- Configure **Active Directory Domain Services**
+- Create an **enterprise-style Organizational Unit (OU) structure**
+- Provision **user accounts within Active Directory**
+- Join **Windows workstations to the domain**
+- Simulate the **enterprise user onboarding process**
+
+---
+
+## Skills Demonstrated
+
+- Windows Server administration
+- Active Directory management
+- User provisioning and identity management
+- Domain authentication
+- Virtualized lab environment design
