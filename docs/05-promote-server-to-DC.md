@@ -121,6 +121,6 @@ Confirm the domain:
 
 is present.
 
-![Active Directory domain successfully created](images/domain_created.png)
+<img width="752" height="531" alt="image" src="https://github.com/user-attachments/assets/b7cb157e-0eab-41b6-b391-c1c448b602d5" />
 
 The server is now functioning as a **Domain Controller** for the lab environment.
