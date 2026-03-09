@@ -42,7 +42,7 @@ VMware Host
 
 - Deploy a **Windows Server domain controller**
 - Configure **Active Directory Domain Services**
-- Create an **enterprise-style Organizational Unit (OU) structure**
+- Create an **enterprise-style Organisational Unit (OU) structure**
 - Provision **user accounts within Active Directory**
 - Join **Windows workstations to the domain**
 - Simulate the **enterprise user onboarding process**
